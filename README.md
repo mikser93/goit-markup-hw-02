@@ -1,1 +1,1 @@
-https://mikser93.github.io/goit-markup-hw-01/
+https://mikser93.github.io/goit-markup-hw-02/
