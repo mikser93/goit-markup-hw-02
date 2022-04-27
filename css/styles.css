@@ -194,8 +194,12 @@ body {
     text-decoration: none;
 }
 
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+
 /* Second page */
-.menu {
+.mein-section {
     background-color: var(--background-color);
 }
 
