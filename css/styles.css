@@ -37,6 +37,11 @@ body {
     border-radius: 4px;
     border: 0;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.87;
+    color: #FFFFFF;
 }
 
 .button {
@@ -45,7 +50,15 @@ body {
     border-radius: 4px;
     border: 0;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
+
 
 .button:hover,
 .button:focus {
@@ -88,6 +101,10 @@ body {
     color: var(--accent-color);
 }
 
+.current {
+    color: var(--accent-color);
+}
+
 .info-list {
     color: var(--text-color-light);
     text-decoration: none;
@@ -110,13 +127,6 @@ body {
     color: #FFFFFF;
 }
 
-.main-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    color: #FFFFFF;
-}
-
 /* Skils */
 .skils-section {
     background-color: var(--background-color);
@@ -127,6 +137,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: var(--text-color-dark);
+    text-transform: uppercase;
 }
 
 .skils-section-description {
@@ -201,9 +212,11 @@ body {
 .address-link:hover,
 .address-link:focus {
     color: var(--accent-color);
+}
 
 /* Second page */
-.mein-section {
+
+.main-section {
     background-color: var(--background-color);
 }
 
@@ -219,6 +232,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--text-color-dark);
 }
 
@@ -226,6 +240,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
     color: var(--text-color-light)
 }
 /* hiden */
