@@ -172,7 +172,7 @@ body {
 }
 
 /* Footer */
-.address {
+.list-footer {
     font-style: normal;
 }
 
@@ -186,6 +186,11 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+
+.maps-link {
+    color: var(--background-color);
+    text-decoration: none;
 }
 
 .address-link {
