@@ -79,7 +79,6 @@ body {
 }
 
 .link {
-    color: var(--text-color-dark);
     text-decoration: none;
     color: var(--text-color-dark);
 }
