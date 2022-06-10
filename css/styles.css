@@ -175,9 +175,6 @@ body {
 }
 
 /* Footer */
-.list-footer {
-    font-style: normal;
-}
 
 .footer {
     background-color: var(--block-fon-color);
@@ -186,6 +183,7 @@ body {
 
 .list-footer {
     list-style: none;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
